@@ -126,11 +126,8 @@ def execute_cmd(cmd):
         os.system('E:/"обща папка"/книги/history.pdf')
 #місце проблеми:
     elif cmd == 'lov':
-        pass
-        #tts = gTTS('I love you to', lang='en')
-        #tts.save('love.mp3')
-        #playsound.playsound('love.mp3')
-
+       pass
+        #speak("I love you to")
          
     else:
         print("Please repeat comand!")
